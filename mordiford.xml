@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-<remote name="mordiford" fetch="https://github.com/mordiford/" />
-
-<remove-project name="AICP/packages_apps_AicpExtras"/>
-<project name="mordiford/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="mordiford" />
-
-</manifest>
