@@ -3,6 +3,7 @@
 <remote name="phh" fetch="https://github.com/phhusson/" />
 <remote name="androplus" fetch="https://github.com/AndroPlus-org/" />
 <remote name="mordiford" fetch="https://github.com/mordiford/" />
+<remote name="LineageOS" fetch="https://github.com/LineageOS/" />
 
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="androplus" revision="pie" />
 <project path="device/phh/treble" name="device_phh_treble" remote="androplus" revision="android-9.0" />
@@ -16,4 +17,5 @@
 
 <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
 <project path="device/generic/common" name="device/generic/common" groups="pdk" />
+<project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="LineageOS" revision="lineage-16.0"  />
 </manifest>
