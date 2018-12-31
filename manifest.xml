@@ -16,6 +16,5 @@
 <project path="external/exfat" name="exfat" remote="phh" revision="android.bp-pie" />
 
 <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
-<project path="device/generic/common" name="device/generic/common" groups="pdk" />
 <project path="packages/apps/GoogleCameraMod" name="packages_apps_GoogleCameraMod" remote="androplus-gitlab" revision="pie-beryllium" />
 </manifest>
