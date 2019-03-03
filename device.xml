@@ -23,6 +23,7 @@
 <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
 
 <remove-project name="android_hardware_ril" />
+<project path="hardware/ril" name="hardware_ril" remote="pixel" />
 <project path="hardware/ril-caf" name="hardware_ril-caf" revision="pie" remote="pixel" />
 
 </manifest>
