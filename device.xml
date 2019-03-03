@@ -22,4 +22,7 @@
 <project path="packages/apps/WallpapersBReel2018" name="packages_apps_WallpapersBReel2018" remote="pixel-gitlab" revision="pie" />
 <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
 
+<remove-project name="android_hardware_ril" />
+<project path="hardware/ril-caf" name="hardware_ril-caf" revision="pie" remote="pixel" />
+
 </manifest>
