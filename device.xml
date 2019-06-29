@@ -3,8 +3,14 @@
         <remote name="pixel-gitlab"
                 fetch="https://gitlab.com/PixelExperience"
                 revision="pie" />
+        <remote name="petercxy" fetch="https://github.com/PeterCxy/" />
 
         <project path="packages/apps/WallpapersBReel2018" name="packages_apps_WallpapersBReel2018" remote="pixel-gitlab" revision="pie" />
         <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+
+        <project path="device/oneplus/guacamole" name="android_device_oneplus_guacamole" remote="androplus" revision="9.0" />
+        <project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="androplus" revision="9.0" />
+        <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="petercxy" revision="lineage-16.0" />
+        <project path="vendor/oneplus/sm8150-common" name="android_vendor_oneplus_sm8150-common" remote="petercxy" revision="lineage-16.0" />
 
 </manifest>
