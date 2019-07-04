@@ -13,10 +13,15 @@
         <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="petercxy" revision="lineage-16.0" />
         <project path="vendor/oneplus/sm8150-common" name="android_vendor_oneplus_sm8150-common" remote="petercxy" revision="lineage-16.0" />
 
+        <remove-project name="crdroidandroid/android_build_soong"/>
         <remove-project name="LineageOS/android_hardware_lineage_interfaces"/>
         <remove-project name="crdroidandroid/android_frameworks_av"/>
         <remove-project name="frameworks_base"/>
         <remove-project name="crdroidandroid/android_frameworks_native"/>
+        <project path="build/soong" name="android_build_soong" remote="androplus" revision="9.0" >
+                <linkfile src="root.bp" dest="Android.bp" />
+                <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+        </project>
         <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces-1" remote="androplus" revision="lineage-16.0" />
         <project path="frameworks/av" name="android_frameworks_av-1" remote="androplus" revision="9.0" />
         <project path="frameworks/base" name="frameworks_base" remote="androplus" revision="9.0" />
