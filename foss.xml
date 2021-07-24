@@ -9,5 +9,5 @@
 		remote="phh" revision="master" />
 
 	<remote name="seedvault-github" fetch="https://github.com/seedvault-app/" />
-    <project path="vendor/seedvault" name="seedvault" remote="seedvault-github" revision="master" />
+    <!--<project path="vendor/seedvault" name="seedvault" remote="seedvault-github" revision="master" />-->
 </manifest>
