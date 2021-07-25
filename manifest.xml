@@ -14,4 +14,7 @@
 <!-- exfat support -->
 <remote name="relan" fetch="https://github.com/relan/" />
 <project path="external/exfat" name="exfat" remote="relan" revision="master" />
+
+<!-- We don't need kernel, but build system needs kernel source... -->
+<project path="kernel/google/sunfish" name="LineageOS/android_kernel_google_sunfish" remote="github" revision="lineage-18.1" />
 </manifest>
